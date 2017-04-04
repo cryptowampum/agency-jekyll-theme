@@ -1,64 +1,53 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: http://cryptowampum.com/
+canonical: http://cryptowampum.com/
+baseurl: 
+title: Wampum eCommerce for All
+email: russell@cryptowampum.com
+description: "Wampum software allows your business to do commerce electronically, without a local bank account."
+headerimg: LocalJoePOS.jpg
+headerimg_sm: LocalJoePOS_sm.jpg
+logo: /img/logos/WampumLogoTransSm.png
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Russell Castagnaro
+  pic: RussellSqAloha
+  position: CEO & Cofounder
+  profile: Russell is a visionary whose vast technical knowledge and practical, people-centric approach over the last 23 years has enabled the teams he has led to change the landscape of electronic commerce, enterprise software development and government operations.  
   social:
     - title: twitter
-      url: #
+      url: http://twitter.com/rcastag
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://www.facebook.com/rcastagnaro
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/russell-castagnaro-6231553/
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Matthew Skota
+  pic: MattSqAloha
+  position: CTO & Cofounder
+  profile: Matthew has vast experience in military, ecommerce, cryptography and government technology solutions.  
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+
+
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/cryptowampum
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://facebook.com/cryptowampum
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1110 Nuuanu Ave
+  - line: #40
+  - line: Honolulu, HI 96817
 
 # Build settings
 markdown: kramdown
