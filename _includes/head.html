@@ -3,22 +3,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="keywords" content="Wampum, Wampum LLC, Hawaii, Honolulu, Denver, cryptocurrency, cryptocurrency payment, unbanked, bankless, payment, bitcoin, bitcoin payment, dispensary, dispensary payment, retail, altcoin ">
+    <meta name="keywords" content="Wampum, Wampum LLC, Hawaii, Honolulu, Denver, cryptocurrency, cryptocurrency payment, unbanked, bankless, payment, bitcoin, bitcoin payment, dispensary, dispensary payment, retail, cashier, electronic payments ">
+
+	<meta property="fb:app_id" content="251251262032068" />
     <meta name="description" content="{{ site.description }}">
-	<meta property="og:image" content="{{ site.logo }}" />
+	<meta property="og:url" content="{{ 'index.html' | prepend: site.canonical }}" />
+	<meta property="og:title" content="Wampum: eCommerce for All!" />
+	<meta property="og:site_name" content="Wampum" />
+	<meta property="og:description" content="{{ site.description }}" />
+	<meta property="og:image" content="{{ site.headerimg_sm | prepend: 'img/' | prepend: site.canonical }}" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:url" content="{{ site.headerimg_sm | prepend: 'img/' | prepend: site.canonical }}" />
+		
+	<!-- custom image for sharing  -->
+	
 
+<link rel="canonical" href="{{ 'index.html' | prepend: site.canonical}}">
 
-<!--
-    <link rel="canonical" href="{{ 'index.html' | prepend: site.canonical}}">
-{{ site.url }}/index.html
-{{ page.url }}
-{{ 'index.html' | prepend: site.canonical}}  index.html
--->
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
-
+	<link rel=”image_src” href=”{{ site.headerimg_sm | prepend: 'img/' | prepend: site.canonical }}” />
+	
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">

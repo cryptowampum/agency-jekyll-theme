@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.cryptowampum.com/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.cryptowampum.com/terms/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.cryptowampum.com/privacy/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+    <url>
+    <loc>http://www.cryptowampum.com/partner/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+    <url>
+    <loc>http://www.cryptowampum.com/terms/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+</urlset>
+<!--<guid value="1cca4d93-30d7-4343-8cb5-7822b12b2dd1" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
